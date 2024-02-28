@@ -12,7 +12,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['username'])) {
     
 </head> 
 <body>
-<div class="content-container">
+<div 
 <h1>Hello, <?php echo $_SESSION['username']; ?></h1>
 
     <label>
